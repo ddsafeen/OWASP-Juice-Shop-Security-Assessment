@@ -49,3 +49,17 @@ These observations are not all confirmed exploitable vulnerabilities.
 
 ## Disclaimer
 All testing was performed in a locally hosted, intentionally vulnerable educational environment. This project is intended solely for authorized cybersecurity learning and portfolio documentation.
+
+## Security Testing Evidence
+
+The following screenshots document observations from my locally hosted OWASP Juice Shop security assessment.
+
+| Testing Area | Evidence |
+|---|---|
+| HTTP Traffic Analysis | [Burp Suite HTTP History](screenshots/Burp%20Suite%20HTTP%20History.png) |
+| Cookie Security | [Cookie Security Attributes](screenshots/Cookie%20Security%20Attributes.png) |
+| Content Security Policy | [Missing CSP Header](screenshots/Missing%20CSP%20Header.png) |
+| Password Reset Workflow | [Password Reset API](screenshots/Password%20Reset%20API.png) |
+| Error Handling | [Stack Trace Disclosure](screenshots/Stack%20Trace%20Disclosure.png) |
+
+**Note:** These screenshots represent security testing observations. Not all observations establish confirmed exploitable vulnerabilities.
