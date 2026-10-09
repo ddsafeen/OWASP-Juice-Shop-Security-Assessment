@@ -63,3 +63,7 @@ The following screenshots document observations from my locally hosted OWASP Jui
 | Error Handling | [Stack Trace Disclosure](screenshots/Stack%20Trace%20Disclosure.png) |
 
 **Note:** These screenshots represent security testing observations. Not all observations establish confirmed exploitable vulnerabilities.
+
+## Assessment Report
+
+[View Security Assessment Report](OWASP_Juice_Shop_Security_Assessment.pdf)
